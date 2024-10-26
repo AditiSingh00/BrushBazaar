@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom"
-import Home from './home/Home'
+import Hoome from './home/Home.jsx'
 import Materials from './components/Materials'
 import Signup from './components/Signup'
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="dark:bg-slate-900 dark:text-white">
       <Routes>
-        <Route path='/' element={<Home/>}  />
+        <Route path='/' element={<Hoome/>}  />
         <Route path='/materials' element={<Materials/>}  />
         <Route path='/signup' element={<Signup/>}  />
       </Routes>
